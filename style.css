@@ -17,6 +17,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*header part*/
 header {
     text-align: center;
@@ -33,17 +43,7 @@ header h1 {
     color: rgb(255, 105, 11);
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 /*order part css*/
-.container {
-    width: 9 00px;
-    margin: 0 auto;
-}
-
 .part_text {
     width: 50%;
     padding: 90px 0 0 100px;
@@ -86,3 +86,44 @@ header h1 {
 }
 
 /*about part css*/
+#about_part {
+    width: 100%;
+    background-image: url(images/7.png);
+}
+
+.about_img {
+    width: 50%;
+    display: block;
+    padding: 60px 0 0 100px;
+}
+
+.about_img img {
+    width: 65%;
+}
+
+.about_text {
+    width: 50%;
+    padding: 90px 0 0 100px;
+}
+
+.about_text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+
+.about_text p {
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+    font-weight: 400px;
+    line-height: 28px;
+    padding: 25px 0 50px 0;
+}
+
+.about_text a {
+    font-size: 14px;
+    padding: 8px 12px;
+    color: #fff;
+    background-color: rgb(255, 107, 54);
+    border-radius: 50px;
+}
