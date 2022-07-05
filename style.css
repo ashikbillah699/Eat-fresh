@@ -245,3 +245,26 @@ header h1 {
     font-weight: 400;
     color: rgb(136, 136, 136);
 }
+
+/*footer part*/
+.footer {
+    height: 150px;
+    background-color: rgb(7, 3, 31);
+}
+
+.footer h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 45px 0 20px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+.fresh {
+    color: gray;
+}
